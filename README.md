@@ -31,6 +31,16 @@ Banyak orang memasang beberapa tool memori dan pencarian kode sekaligus untuk Cl
 
 Installer tidak mengubah `CLAUDE.md` milikmu. Bagian routing kamu salin sendiri (lihat di bawah).
 
+## Skill untuk Claude Code
+
+Repo ini juga berisi skill `routing-memori`. Skill ini mengajari Claude cara menyimpan, mengingat dan merapikan memori, serta memilih satu tool untuk tiap jenis pertanyaan.
+
+```bash
+npx skills add masopen99/routing-memori -g -y
+```
+
+Setelah terpasang, Claude memakainya otomatis saat kamu bilang "ingat ini", "lupakan", "rapikan memori", atau saat ada beberapa tool yang tumpang tindih.
+
 ## Pasang routing di CLAUDE.md
 
 Salin isi [`templates/CLAUDE.md`](templates/CLAUDE.md) ke `CLAUDE.md` milikmu. Hapus baris tool yang tidak kamu pakai.
