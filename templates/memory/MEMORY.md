@@ -1,0 +1,2 @@
+- [Example preference](feedback-example.md) — reply style the user asked for
+- [Example project](project-example.md) — current goal and deadline
